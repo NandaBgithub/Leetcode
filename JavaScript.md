@@ -100,7 +100,7 @@ dog.fetch();  // Output: Dog is fetching the ball
 
 - JavaScript is multi-paradigm. This means it supports object oriented(programs consist of objects with states and behaviours), imperative(programs describe how computers should execute processes) and declarative (programs describe what processes should do rather than how).
 
-- JavaScript is single threaded, meaning that code executes one sequence at a time. This may be bad because certain costly operations that take up longer cpu cycles can slow an entire application, and one infinite loop can hang the browser. JavaScript has a slight workaround to this with a combination of asynchronous like promises, callbacks, async/await all. These mechanisms ensure that these processes can yield and switch so it does not consume too much cpu time.
+- JavaScript is single threaded, meaning that code executes one sequence at a time. This may be bad because certain costly operations that take up longer cpu cycles can slow an entire application, and one infinite loop can hang the browser. JavaScript has a slight workaround to this with asynchronous machanisms like promises, callbacks, async/await. These mechanisms ensure that these processes can yield and switch so it does not consume too much cpu time.
 
 Some somewhat unique JavaScript dynamic capabilities.
 
